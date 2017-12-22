@@ -26,10 +26,8 @@
     "url": "https://github.com/sach2211/webpagereport/issues"
   },
   "homepage": "https://github.com/sach2211/webpagereport#readme",
-  "devDependencies": {
-    "webpagetest": "^0.3.8"
-  },
   "dependencies": {
+    "webpagetest": "^0.3.8",
     "nodemailer": "^4.4.1"
   }
 }
