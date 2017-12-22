@@ -1,6 +1,6 @@
 {
   "name": "webpagereport",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "A module to run webpagetest and mail report to you",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
