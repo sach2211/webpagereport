@@ -20,7 +20,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "filesearch": "index.js"
+    "webpagereport": "index.js"
   },
   "bugs": {
     "url": "https://github.com/sach2211/webpagereport/issues"
