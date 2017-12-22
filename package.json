@@ -2,7 +2,6 @@
   "name": "webpagereport",
   "version": "0.0.2",
   "description": "A module to run webpagetest and mail report to you",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +17,10 @@
   ],
   "author": "sach2211",
   "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "filesearch": "index.js"
+  },
   "bugs": {
     "url": "https://github.com/sach2211/webpagereport/issues"
   },
