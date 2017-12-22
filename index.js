@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+console.log("Starting to generarte webpage test report");
+
 var WebPageTest =  require('webpagetest');
 var wpt = new WebPageTest('www.webpagetest.org', 'A.b930dc40dc389c6ef8f92a9feaf1541d');
 
