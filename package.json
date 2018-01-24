@@ -4,6 +4,7 @@
   "description": "A module to run webpagetest and mail report to you",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
     "patch-publish": "npm version patch && npm publish --registry https://registry.npmjs.org && git push origin master --tags"
   },
   "repository": {
@@ -27,7 +28,11 @@
   },
   "homepage": "https://github.com/sach2211/webpagereport#readme",
   "dependencies": {
-    "webpagetest": "^0.3.8",
-    "nodemailer": "^4.4.1"
+    "express": "^4.16.2",
+    "idbcache": "^0.3.1",
+    "lodash": "^4.17.4",
+    "nodemailer": "^4.4.1",
+    "nodemon": "^1.14.11",
+    "webpagetest": "^0.3.8"
   }
 }
